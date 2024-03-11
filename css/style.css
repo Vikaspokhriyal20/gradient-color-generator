@@ -1,0 +1,100 @@
+
+/* font-family from google font */
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arya , calibri;
+}
+
+
+body
+{
+    background-color: white;
+
+}
+
+
+.container
+{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.container h4
+{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.button-container
+{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.button-container #btn-1
+{
+    border: none;
+    background-color: yellow;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+
+}
+
+.button-container #btn-2
+{
+    border: none;
+    background-color: purple;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.code-section
+{
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.code-section p
+{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.code{
+    margin-top: 1rem;
+    background-color: white;
+    text-align: left;
+    padding: 1rem;
+    border-left: 2px solid purple;
+}
+
+.code p
+{
+    font-family: monospace;
+    color: blueviolet;
+    text-transform: lowercase;
+
+}
+
+
+
+
