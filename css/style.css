@@ -14,14 +14,16 @@
 body
 {
     background-color: white;
-
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .container
 {
     max-width: 450px;
-    background-color: white;
     margin: 0 auto;
     padding: 1.2rem;
     display: flex;
@@ -29,14 +31,6 @@ body
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05), inset 0px 0px 0px 1px rgba(209, 213, 219,1);
-}
-
-.container h4
-{
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    text-align: center;
 }
 
 .button-container
@@ -54,7 +48,6 @@ body
     font-size: 0.8rem;
     letter-spacing: 1px;
     border-radius: 4px;
-
 }
 
 .button-container #btn-2
@@ -94,12 +87,12 @@ body
 
 .code p
 {
-    font-family: monospace;
-    color: red;
+    color: black;
     text-transform: lowercase;
+    font-size: 0.8rem;
 }
 
-.code button
+ #copy-btn
 {
     border: none;
     background-color: black;
@@ -110,10 +103,15 @@ body
     border-radius: 4px;
     font-size: 0.8rem;
     letter-spacing: 0.8px;
+    text-transform: capitalize;
 }
 
-
-
+#msg
+{
+    letter-spacing: 1px;
+    color: black;
+    text-transform: capitalize;
+}
 
 
 
